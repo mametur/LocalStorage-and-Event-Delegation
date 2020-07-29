@@ -11,6 +11,8 @@
     <script src="./dependencies/describe-it.js"></script>
 
     <!-- load the rest of your files -->
+    <script src='./scripts/handlers/add-item.js'></script>
+    <script src='./scripts/script-variables.js'></script>
   </head>
 
   <body>
@@ -49,11 +51,19 @@
       <ul class="plates">
         <li>Loading Tapas...</li>
       </ul>
-      <form>
-        <input type="text" placeholder="Item Name" />
+      <form class="add-items">
+        <input type="text" name="item" placeholder="Item Name" required />
         <input type="submit" value="+ Add Item" />
       </form>
     </div>
+
+    <script src='./scripts/listeners/add-item.js'></script>
+
+    <script>
+      // load page with the saved values in local storage
+       PopulateList(items, itemsList);
+    </script>
+    
     <!-- Leave this here, it renders the review buttons
       write your code above this script tag  -->
     <script src="./dependencies/review-buttons.js"></script>
