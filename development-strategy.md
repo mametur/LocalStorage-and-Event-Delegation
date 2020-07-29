@@ -1,4 +1,3 @@
-
 # Development Strategy
 
 > `Separation of Concern project week 1`
@@ -27,3 +26,25 @@ _A User can see my initial repository and live demo_
 - Prepare a project board
 - Push the changes to GitHub
 - Turn on GitHub Pages
+
+## 1. Page structure
+
+_As a site visitor, I want to see the page structure with a beautiful style_
+
+> Assigned to Miroslav
+
+### Repo
+
+- This user story has been developed through a branch called _page-structure_
+
+### HTML
+
+- Write the HTML structure for the project
+
+### CSS
+
+- Style the page, set the elements to center and add images
+
+### JavaScript
+
+- There is no functionality in this step of the project
