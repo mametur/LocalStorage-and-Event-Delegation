@@ -48,3 +48,37 @@ _As a site visitor, I want to see the page structure with a beautiful style_
 ### JavaScript
 
 - There is no functionality in this step of the project
+
+## 2. User Story: Add a new plate
+
+__A user can add a new plate to the list of plates__
+
+> assigned to Eltayeb
+
+### Repo
+
+This user story has been developed through a branch called 'add-item'.
+
+### Assets:
+
+* Nothing has been changed.
+
+### DOM:
+
+* No DOM element has been added in this user story.
+
+### Logic:
+
+* Write add function.
+
+### Listeners:
+
+* Attach a `submit` event to the form.
+
+### Handlers:
+
+* Create a `addItemHandler` event handler to let user input new plate object that contain two keys.
+
+### Testing:
+
+* Write testing.
