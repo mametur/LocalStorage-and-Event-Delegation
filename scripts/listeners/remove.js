@@ -1,5 +1,5 @@
 'use strict';
-console.log('--- loading listener: _');
+console.log('--- loading remove listener: _');
 
-document.getElementById('_')
-    .addEventListener('_', _);
+itemsList.addEventListener('click', removeItem);
+

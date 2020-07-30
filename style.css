@@ -1,15 +1,16 @@
 html {
-  background: url(images/oh-la-la.jpeg) center no-repeat;
-  background-size: cover;
+ 
   font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-height: 100vh; */
   box-sizing: border-box;
 }
-
+body{
+  background: url(./images/oh-la-la.jpeg) no-repeat center center fixed;;
+  background-size: cover;
+}
 *,
 *::before,
 *::after {
@@ -50,4 +51,11 @@ h2 {
   padding: 10px 0;
   font-weight: 200;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
 }

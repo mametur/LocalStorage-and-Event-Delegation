@@ -1,9 +1,20 @@
 'use strict';
-console.log('--- loading handler: _');
+console.log('--- loading remove handler: _');
 
-const _ = (event) => {
+function removeItem(event) {
 
-};
+
+
+  if (!event.target.matches('img') && !event.target.matches('button')) return;
+  const selectedButton = event.target;
+  const indexOfItem = selectedButton.dataset.remove;
+  removeItemByUser(items, indexOfItem)
+  PopulateList(items, itemsList);
+  //store in store localStorage
+  localStorage.setItem('items', JSON.stringify(items));
+
+
+}
 
 /* handlers define user interactions
 
