@@ -8,7 +8,7 @@ The main project idea came from [WesBos](https://javascript30.com/). Each step o
 
 ## Wireframe
 
-![wireframe](./img/wireframe.png)
+![wireframe](./images/js_15.png)
 
 ## 0. Set-Up
 
