@@ -123,3 +123,29 @@ This user story has been developed on the branch 'remove'.
 ### Testing:
 
 - Wrote testing for remove items
+
+## 4. User Story: Toggle plate checkbox
+
+__A user can check or uncheck the desiered plate__
+
+> assigned to Eltayeb
+
+### Repo
+
+This user story has been developed through a branch called 'toggle'.
+
+### Assets:
+
+* Nothing has been changed.
+
+### DOM:
+
+* No DOM element has been added in this user story.
+
+### Listeners:
+
+* Attach a `click` event to the un ordered list.
+
+### Handlers:
+
+* Create a `toggleDone` event handler to let user be able to set a specific plate as checked or unchecked 'switch done key between true and false'.
