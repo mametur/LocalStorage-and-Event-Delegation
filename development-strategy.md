@@ -82,3 +82,44 @@ This user story has been developed through a branch called 'add-item'.
 ### Testing:
 
 * Write testing.
+
+## 3. Remove item 
+
+__As a user, I want to remove specific item which I dont want it,so that I can be sure about my order list __
+
+> assigned to Mamé
+
+### Repo
+
+This user story has been developed on the branch 'remove'.
+
+### HTML
+
+- Add meta tags.  
+- changed title
+
+### CSS
+
+- Rewrite background path.
+- add justify-between property.
+
+### DOM
+
+- Add buttons
+- Add imgs
+
+### Logic
+
+- Wrote `removeItemByUser`.
+
+### Listeners
+
+- Attach a `click` event to the `UL` tag.
+
+### Handlers
+
+- Create a `removeItem` event handler to remove item.
+
+### Testing:
+
+- Wrote testing for remove items
